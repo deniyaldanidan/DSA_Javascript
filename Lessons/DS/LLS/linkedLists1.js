@@ -134,16 +134,18 @@ class LinkedList{
             i++;
         }
         console.log(`Total nodes: ${this.size}`);
+        console.log(this.head);
     }
 
     reversePrint(){
-        
+        // will finish later after the revision
     }
 }
 
 const ll = new LinkedList;
 ll.insertFirst(2); // 2
 ll.insertFirst(3); // 3 2
+console.log(ll.head)
 ll.insertLast(1); // 3 2 1
 ll.insertFirst(4); // 4 3 2 1
 ll.insertLast(0); // 4 3 2 1 0
